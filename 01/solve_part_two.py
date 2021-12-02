@@ -5,12 +5,7 @@ import sys
 input = [ int(x) for x in open(sys.argv[1]).readlines() ]
 
 larger = 0
-measurement = None
-
-windows = []
-
 index = 0
-
 last = None
 
 while index + 3 <= len(input):
