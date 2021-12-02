@@ -11,7 +11,6 @@ last = None
 while index + 3 <= len(input):
     for slide in (0,1,2,3):
         value = sum(input[index + slide:index + slide + 3])
-        print(value)
         if last and value > last:
             larger += 1
         last = value
