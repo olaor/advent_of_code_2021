@@ -9,6 +9,7 @@ days = int(sys.argv[2])
 new = []
 
 for day in range(days):
+    print("On day", day + 1)
     i = 0
     for fish in school:
         if fish == 0:
